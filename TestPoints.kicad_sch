@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 2971eb29-dff2-4908-a7d4-40e954bf19ba)
+  (uuid 05a6fc21-8db7-43b5-8903-7cf8043045c5)
 
   (paper "A4")
 
@@ -303,10 +303,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "PF5" (shape input) (at 165.1 81.28 270) (fields_autoplaced)
+  (global_label "BNO_RST" (shape input) (at 165.1 81.28 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ec8d3350-3cf6-4003-ab9f-a84e21550bf7)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 165.1794 87.2612 90)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 165.0206 92.0388 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
