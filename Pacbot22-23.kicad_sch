@@ -2297,7 +2297,7 @@
   (symbol (lib_id "CustomSymbols:L9110_HBridge") (at 259.08 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0ffed388-a01b-4ab0-a4ac-63b7eb56caa1)
-    (property "Reference" "U?" (id 0) (at 258.445 128.27 0))
+    (property "Reference" "U21" (id 0) (at 258.445 128.27 0))
     (property "Value" "L9110_HBridge" (id 1) (at 258.445 130.81 0))
     (property "Footprint" "" (id 2) (at 259.08 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3136,7 +3136,7 @@
   (symbol (lib_id "CustomSymbols:L9110_HBridge") (at 210.82 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 99bff380-bb67-4944-bd8d-cd24f3744ecf)
-    (property "Reference" "U?" (id 0) (at 210.185 128.27 0))
+    (property "Reference" "U20" (id 0) (at 210.185 128.27 0))
     (property "Value" "L9110_HBridge" (id 1) (at 210.185 130.81 0))
     (property "Footprint" "" (id 2) (at 210.82 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4201,11 +4201,11 @@
     (path "/d36ae2f6-5e49-4fae-8074-0af4d47ae22f"
       (reference "U10") (unit 1) (value "SN74HCS264DR") (footprint "SOIC127P600X175-14N")
     )
-    (path "/0ffed388-a01b-4ab0-a4ac-63b7eb56caa1"
-      (reference "U?") (unit 1) (value "L9110_HBridge") (footprint "")
-    )
     (path "/99bff380-bb67-4944-bd8d-cd24f3744ecf"
-      (reference "U?") (unit 1) (value "L9110_HBridge") (footprint "")
+      (reference "U20") (unit 1) (value "L9110_HBridge") (footprint "")
+    )
+    (path "/0ffed388-a01b-4ab0-a4ac-63b7eb56caa1"
+      (reference "U21") (unit 1) (value "L9110_HBridge") (footprint "")
     )
     (path "/e4a0ec35-7592-44cc-8cca-728fc52023c0"
       (reference "Y1") (unit 1) (value "16Mhz") (footprint "")
