@@ -1304,6 +1304,18 @@
     (pin "1" (uuid cbfbf47b-c8fc-4215-9394-797c8bbd2560))
   )
 
+  (sheet (at 45.72 27.94) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00edbbb4-cd26-461b-b990-f87a8e329c1c)
+    (property "Sheet name" "Power Fixes" (id 0) (at 45.72 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "PowerFixes.kicad_sch" (id 1) (at 45.72 32.3346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 72.39 27.94) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -1332,6 +1344,7 @@
     (path "/" (page "1"))
     (path "/590a5ee8-978b-43ec-b66a-3ea6e6e9d751" (page "2"))
     (path "/4c040f2f-fa7f-436a-8faf-9b6a0a50ff47" (page "3"))
+    (path "/00edbbb4-cd26-461b-b990-f87a8e329c1c" (page "4"))
   )
 
   (symbol_instances
@@ -1340,6 +1353,9 @@
     )
     (path "/3c0a01b7-4e1b-44d8-bdba-30f1191e0e18"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00edbbb4-cd26-461b-b990-f87a8e329c1c/4767fd76-6b58-4859-b099-fd1c871601c5"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/583201a5-9f01-499a-806a-a1c99ed66b6c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -1362,6 +1378,9 @@
     (path "/a9419ac5-56dd-48db-9f7a-b4183b1c6a1c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00edbbb4-cd26-461b-b990-f87a8e329c1c/cfeb6c6d-8f20-41a8-a483-a658024a3995"
+      (reference "#PWR?") (unit 1) (value "+8V") (footprint "")
+    )
     (path "/dbabece7-cfc2-4b30-bd49-2b0169e2eb13"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -1380,6 +1399,12 @@
     (path "/40e66eb1-2fc9-4a17-a2f8-996882f44b8f"
       (reference "C10") (unit 1) (value "1uF") (footprint "")
     )
+    (path "/00edbbb4-cd26-461b-b990-f87a8e329c1c/3720c41d-9d7a-47a6-8680-7f74645e7d2f"
+      (reference "C?") (unit 1) (value "10uF") (footprint "")
+    )
+    (path "/00edbbb4-cd26-461b-b990-f87a8e329c1c/3df3569d-68dd-4c79-94e3-37e6758c6645"
+      (reference "C?") (unit 1) (value "22uF") (footprint "")
+    )
     (path "/4c040f2f-fa7f-436a-8faf-9b6a0a50ff47/2f3e5db4-814e-49e7-9df2-328f7ec40bd7"
       (reference "J?") (unit 1) (value "HC-05") (footprint "")
     )
@@ -1394,6 +1419,9 @@
     )
     (path "/d23bc10b-7b30-45e0-be45-9461d6acd6cc"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "")
+    )
+    (path "/00edbbb4-cd26-461b-b990-f87a8e329c1c/304bc55a-6092-48bb-96c6-a76beb166012"
+      (reference "SW?") (unit 1) (value "SW_DPDT_x2") (footprint "")
     )
     (path "/590a5ee8-978b-43ec-b66a-3ea6e6e9d751/adc48e5e-6897-4611-a6a0-900fdafbc6eb"
       (reference "TP_5V") (unit 1) (value "TestPoint") (footprint "")
@@ -1484,6 +1512,9 @@
     )
     (path "/796ee8f6-a9c8-48b9-89ef-d005df743215"
       (reference "U1") (unit 1) (value "ATmega32U4-A") (footprint "Package_QFP:TQFP-44_10x10mm_P0.8mm")
+    )
+    (path "/00edbbb4-cd26-461b-b990-f87a8e329c1c/425ed8e9-666a-40f8-a3f6-5951f1635e46"
+      (reference "U?") (unit 1) (value "LT1175-5_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/e4a0ec35-7592-44cc-8cca-728fc52023c0"
       (reference "Y1") (unit 1) (value "16Mhz") (footprint "")
