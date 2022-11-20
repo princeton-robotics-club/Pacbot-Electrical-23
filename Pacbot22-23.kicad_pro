@@ -418,6 +418,14 @@
     [
       "590a5ee8-978b-43ec-b66a-3ea6e6e9d751",
       "TestPoints"
+    ],
+    [
+      "4c040f2f-fa7f-436a-8faf-9b6a0a50ff47",
+      "Bluetooth"
+    ],
+    [
+      "00edbbb4-cd26-461b-b990-f87a8e329c1c",
+      "Power Fixes"
     ]
   ],
   "text_variables": {}
