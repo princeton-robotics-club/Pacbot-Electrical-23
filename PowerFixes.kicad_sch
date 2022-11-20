@@ -503,6 +503,13 @@
     (uuid e6803a3f-3021-482f-bf0a-ea4ffc44ab3c)
   )
 
+  (global_label "VREG" (shape input) (at 51.435 33.02 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2db73773-eea7-4efd-b791-0ec7696d43ad)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 58.6257 32.9406 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "VUSB" (shape input) (at 55.245 55.88 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e7095222-e4d2-40cb-af0b-ef1d8bdf8927)

@@ -3990,6 +3990,9 @@
     (path "/00edbbb4-cd26-461b-b990-f87a8e329c1c/4767fd76-6b58-4859-b099-fd1c871601c5"
       (reference "#PWR0150") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/590a5ee8-978b-43ec-b66a-3ea6e6e9d751/d45d790b-0eb2-44d8-844d-048cf49d1a4f"
+      (reference "#PWR?") (unit 1) (value "+8V") (footprint "")
+    )
     (path "/4aa3237a-e6e5-4d72-89c4-eb70368f7e84"
       (reference "C1") (unit 1) (value "15pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -4193,6 +4196,15 @@
     )
     (path "/590a5ee8-978b-43ec-b66a-3ea6e6e9d751/7a778ba0-8ece-45a1-b694-55187046eca9"
       (reference "TP_TX_1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+    )
+    (path "/590a5ee8-978b-43ec-b66a-3ea6e6e9d751/b6c5afbe-b1f5-4114-b34d-0b8e4e8e63d3"
+      (reference "TP_VBAT_1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+    )
+    (path "/590a5ee8-978b-43ec-b66a-3ea6e6e9d751/3f5e6f94-2957-4c71-b067-61dbce0277ad"
+      (reference "TP_VREG_1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+    )
+    (path "/590a5ee8-978b-43ec-b66a-3ea6e6e9d751/f0f22182-e7f1-4471-8b46-336cc24ff928"
+      (reference "TP_VUSB_1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
     )
     (path "/796ee8f6-a9c8-48b9-89ef-d005df743215"
       (reference "U1") (unit 1) (value "ATmega32U4-A") (footprint "Package_QFP:TQFP-44_10x10mm_P0.8mm")
