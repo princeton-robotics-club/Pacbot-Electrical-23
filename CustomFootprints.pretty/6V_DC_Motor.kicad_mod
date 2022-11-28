@@ -46,4 +46,9 @@
   (pad "4" thru_hole circle (at 0 -1.27) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask) (tstamp c4b9324e-1db4-4e74-88c5-7cf5c165ddfb))
   (pad "5" thru_hole circle (at 0 1.27) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask) (tstamp 81e557c6-28c1-4036-9d5c-f1b34d3d9a45))
   (pad "6" thru_hole circle (at 0 3.81) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask) (tstamp 003ac908-351d-479d-8966-e388e409562c))
+  (model "${KIPRJMOD}/3dModels/DG308-2.54-06P-14-00AH.STEP"
+    (offset (xyz 0 -3.81 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

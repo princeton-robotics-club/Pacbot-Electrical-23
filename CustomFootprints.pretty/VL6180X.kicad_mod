@@ -22,4 +22,19 @@
   (pad "4" thru_hole circle (at 1.27 0) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask) (tstamp d0d7daaf-e211-4cff-a7da-4f7926d0c8dc))
   (pad "5" thru_hole circle (at 3.81 0) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask) (tstamp 42938688-4c56-4324-8671-ec8d333b57d5))
   (pad "6" thru_hole circle (at 6.35 0) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask) (tstamp 269cabe3-b231-4ed6-89e9-405203556103))
+  (model "${KIPRJMOD}/3dModels/Adafruit VL6180 STEMMA QT.step"
+    (offset (xyz 0 -1.905 18.669))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KIPRJMOD}/3dModels/1x6.STEP"
+    (offset (xyz 7.62 1.27 8.255))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+  (model "${KIPRJMOD}/3dModels/1x6 Male Pin Header Angle.STEP"
+    (offset (xyz 6.35 0 10.795))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
 )
